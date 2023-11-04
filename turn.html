@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>轮播乱搞</title>
+</head>
+<style>
+    * {
+        padding: 0;
+            margin: 0;}
+    img{width:200px;height: 200px;}
+    div{width: 600px;height: 200px;border-style: solid;margin: auto;overflow: hidden;}
+    div ul{display: flex;animation: turn 6s infinite linear;
+    div ul:hover{animation-play-state: paused;}
+;}    
+@keyframes turn {
+from{
+    transform: translate(0pxx);
+
+}
+to{
+    transform: translate(-1600px);
+}
+
+
+
+}
+    
+</style>
+<body>
+    <div>
+        <ul>
+            <li><img src="./tai.jpg" alt=""></li>
+            <li><img src="./yang.jpg" alt=""></li>
+            <li><img src="./bu.jpg" alt=""></li>
+            <li><img src="./qi.jpg" alt=""></li>
+            <li><img src="./wo.jpg" alt=""></li>
+            <li><img src="./bu.jpg" alt=""></li>
+            <li><img src="./shui.jpg" alt=""></li>
+            
+     </ul>
+    </div>
+</body>
+</html>
